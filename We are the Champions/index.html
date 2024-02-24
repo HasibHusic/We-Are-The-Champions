@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <head>
+        <title>We are the Champions</title>
+        <link rel="stylesheet" href="index.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Josefin+Sans:wght@500&family=Orbitron:wght@400;500&display=swap');
+        </style>
+    </head>
+    <body>
+        
+        <img src = "tft-championship-bug-base-2.png">
+        <h1 id="title">We are the Champions</h1>
+        <form id="commentForm">
+            <textarea id="commentBox" placeholder="Write your endorsment here..."></textarea>
+            <div id="containerFromTo">
+                <textarea id="from" placeholder="From"></textarea>
+                <textarea id="to" placeholder="To"></textarea>
+            </div>
+            <input id="submitBtn" type="submit" value="Publish"> 
+            <div id="submittedComments" style="display: none;">
+                <h2>- Endorsements -</h2>
+                <div id="submittedComments">
+                <ul></ul>
+                </div>
+            </div>
+        </form>  
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
